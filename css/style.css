@@ -1,0 +1,25 @@
+/* Estilo Geral */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+}
+
+/* Cabeçalho */
+.header {
+    background: #6200ea;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Botão de Entrar */
+.header button {
+    background: #3700b3;
+    border: none;
+    padding: 0.5em 1em;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}

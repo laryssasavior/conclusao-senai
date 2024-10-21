@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Agradecimento</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/parallax.css">
+    <link rel="stylesheet" href="css/modal.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <h1>Sistema de Agradecimento</h1>
+        <button onclick="openModal()">Entrar</button>
+    </header>
+
+    <!-- Seção Parallax para Fotos -->
+    <section class="parallax">
+        <div class="parallax-layer parallax-layer-back">
+            <img src="path/to/photo1.jpg" alt="Aluno 1">
+        </div>
+        <div class="parallax-layer parallax-layer-middle">
+            <img src="path/to/photo2.jpg" alt="Aluno 2">
+        </div>
+        <div class="parallax-layer parallax-layer-front">
+            <img src="path/to/photo3.jpg" alt="Aluno 3">
+        </div>
+    </section>
+
+    <!-- Seção de Agradecimentos -->
+    <section class="thank-you-section">
+        <h2>Mensagens de Agradecimento</h2>
+        <p class="thank-you-text">Obrigado por fazer parte deste projeto incrível!</p>
+    </section>
+
+    <!-- Modal para Login -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Login</h2>
+            <input type="email" placeholder="Insira seu email">
+            <input type="password" placeholder="Senha">
+            <button onclick="login()">Entrar</button>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
